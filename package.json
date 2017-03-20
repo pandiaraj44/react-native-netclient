@@ -1,0 +1,44 @@
+{
+  "name": "react-native-network",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main-index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandiaraj44/react-native-network.git"
+  },
+  "keywords": [
+    "react-native",
+    "network",
+    "react native network",
+    "react-native-network",
+    "network library",
+  	"rest",
+  	"rest client",
+  	"http",
+  	"restclient"
+ 	],
+  "author": "Pandiarajan Nagarajan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandiaraj44/react-native-network/issues"
+  },
+  "homepage": "https://github.com/pandiaraj44/react-native-network",
+  "dependencies": {
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+	"react": "15.4.2",
+    "react-native": "0.42.3",	
+	"babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  }				                                            
+}
