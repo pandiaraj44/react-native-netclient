@@ -1,7 +1,7 @@
 {
-  "name": "react-native-network",
+  "name": "react-native-netclient",
   "version": "0.0.1",
-  "description": "",
+  "description": "A network library which provides the most fastest & efficient way to handle the HTTP request and response. It acts like a rest client and supports on both ios & android. It uses the core fetch react native API. This library follows the oops standard for accessing javascript objects. User-friendly API that allows you to maintain your API code neat and would be useful for maintenance.",
   "main": "main-index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -9,13 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pandiaraj44/react-native-network.git"
+    "url": "https://github.com/pandiaraj44/react-native-netclient.git"
   },
   "keywords": [
     "react-native",
     "network",
+    "net",
+    "network client",
+    "client",
+    "network-client",
     "react native network",
     "react-native-network",
+    "react-native-netclient",
     "network library",
   	"rest",
   	"rest client",
@@ -25,9 +30,9 @@
   "author": "Pandiarajan Nagarajan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pandiaraj44/react-native-network/issues"
+    "url": "https://github.com/pandiaraj44/react-native-netclient/issues"
   },
-  "homepage": "https://github.com/pandiaraj44/react-native-network",
+  "homepage": "https://github.com/pandiaraj44/react-native-netclient",
   "dependencies": {
   },
   "jest": {
@@ -35,10 +40,10 @@
   },
   "devDependencies": {
 	"react": "15.4.2",
-    "react-native": "0.42.3",	
+    "react-native": "0.42.3",
 	"babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
     "jest": "19.0.2",
     "react-test-renderer": "15.4.2"
-  }				                                            
+  }
 }
